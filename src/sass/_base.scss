@@ -1,0 +1,18 @@
+//
+// Base
+//
+
+
+html {
+  font-size: 125%; // 20px = 20/16(browsers default font size) = 125
+  font-family: sans;
+  background-color: $light;
+  height: 100%;
+}
+
+body {
+  @include flex-center;
+  flex-direction: column;
+  min-height: 100%;
+  padding: 1.25rem 0;
+}
